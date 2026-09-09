@@ -6,7 +6,7 @@ print(f)
 
 temperature=float(input("Enter your temp"))
 converted=(temperature-32)*5/9
-print(f"")
+print(f"This is your temperature {converted}")
 
 
 print("Yen to pesos")
@@ -22,5 +22,7 @@ seconds=minutes*60
 print(f"You entered {minutes} and that is this many {seconds}")
 
 
-currentyear=int(input("WHAT YEAR"))
-birthyear=int(input)
+currentyear=int(input("What is the current year"))
+birthyear=int(input("What is your birth year?"))
+age=currentyear-birthyear
+print(f"You are this {age} years old")
