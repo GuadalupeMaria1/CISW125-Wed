@@ -1,0 +1,38 @@
+# 1 Create an age classifier. Categorize them as child, teenager, adult, and seniors.
+
+age=float(input("Enter your age: "))
+if age<=12:
+    print("Child")
+elif age>12 and age<=19:
+    print("Teenager")
+elif age>21 and age<=55:
+    print("Adult")
+else:
+    print("Senior")
+
+#2 Create a BMI checker.
+
+weight=float(input("Enter your weight (Pounds): ")) 
+height=float(input("Enter your height (Inches): "))
+
+height2=height*height
+BMI=(weight/height2*703)
+    
+if BMI<18.5:
+    print("underweight")
+elif BMI<=21.5:
+    print("normal wight")
+elif BMI<=25.9:
+    print("over weight")
+else:
+    print("obese")
+
+
+#5 Create a simple password checker.
+
+password=input("Enter your password")
+if len(password)>8: #len is a build in function that counts how many characters my input was 
+    print("This works")
+elif len(password)<8:
+    print("Your password must be at least 8 characters")
+
