@@ -31,7 +31,7 @@ print(age, type(age))
 # regardless of what we have typed
 age_text=input( "What is your age?: ") #asks for age, makes input string
 age_int=int(age_text) #converting variable on line 32 into an INT
-#string is 
+#string is text data
 
 
 
