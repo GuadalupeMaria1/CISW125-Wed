@@ -1,3 +1,5 @@
+#Thomas Pangelinan
+
 salary=input('Do you think pro sports players deserve the pay they get? ')
 if salary=='yes':
     print('I think that some sports teams should get paid more')
