@@ -1,7 +1,7 @@
-#Thomas Pangelinan
+
 
 # Intro to Programming
-# Debug Exercise 2
+# Debug Exercise 
 
 # This program should add three numbers together.
 

@@ -1,6 +1,6 @@
-#Thomas Pangelinan
+#Program number two
 
-retire_age=input('What age do you want to retire?' )
+ideal_age=input('What age is your preffered age you would like to be?' )
 current_age=int(input('How old are you now '))
-age_number=int(retire_age)
-print(f'You will retire in {age_number-current_age} years!')
+age_number=int(ideal_age)
+print(f'In about {age_number-current_age} years you will be your ideal age!')
