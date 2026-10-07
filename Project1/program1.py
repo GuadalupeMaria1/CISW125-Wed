@@ -1,9 +1,9 @@
-#Thomas Pangelinan
+#Program number one
 
-salary=input('Do you think pro sports players deserve the pay they get? ')
-if salary=='yes':
-    print('I think that some sports teams should get paid more')
-elif salary=='no':
-    print('I feel that some teams do deserve the pay they get and some dont')
+temperature=input('What would you prefer cold weather or warm weather? ')
+if temperature=='cold':
+    print('Cold is not my favorite temperature')
+elif temperature=='warm':
+    print('Warm is my favorite temperature')
 else:
-    print('Invalid Response')
+    print('That might be a good temperature as well.')
